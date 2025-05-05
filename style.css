@@ -248,6 +248,32 @@ section p {
   color: #fff;
 }
 
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.valor img {
+  max-width: 260px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.valor img:hover {
+  transform: scale(1.05);
+}
+
+.form-content {
+  max-width: 600px;
+  text-align: center;
+}
+
 .deps {
   display: flex;
   flex-wrap: wrap;
