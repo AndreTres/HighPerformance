@@ -185,6 +185,45 @@ header .container {
   margin-bottom: 30px;
 }
 
+.potencial-section {
+  padding: 60px 20px;
+  background-color: #101010;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.potencial-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+  justify-content: center;
+}
+
+.potencial-image img {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+}
+
+.potencial-text {
+  max-width: 600px;
+  color: #ccc;
+  text-align: left;
+}
+
+.potencial-text h2 {
+  color: #1e90ff;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.potencial-text p {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
 section {
   padding: 40px 20px 40px 20px;
   background-color: transparent;
