@@ -311,6 +311,39 @@ section p {
   text-align: center;
 }
 
+.video-title {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.video-container {
+  width: 100%;
+  max-width: 400px; 
+  margin: 0 auto;
+  margin-top: 20px;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  display: block;
+  line-height: 0;
+}
+
+.video-container:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+}
+
 .deps {
   display: flex;
   flex-wrap: wrap;
