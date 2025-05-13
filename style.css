@@ -47,7 +47,7 @@ a:hover {
 
 header {
   background-color: #000;
-  padding: 0px 0; 
+  padding: 0; 
   border-bottom: 2px solid #1e90ff;
   position: sticky;
   top: 0;
@@ -439,7 +439,7 @@ section p {
 
 .faq-item p {
   font-size: 17px;
-  color: #ccc;
+  color: #ddd;
   line-height: 1.6;
   text-align: center;
 }
@@ -495,8 +495,6 @@ footer {
   border-top: 1px solid #1e90ff;
   padding: 10px 20px;
   text-align: center;
-  font-size: 13px;
-  color: #666;
 }
 
 .whatsapp-float {
@@ -540,6 +538,8 @@ footer {
   header .container {
     flex-direction: column;
     gap: 10px;
+    align-items: center;
+    text-align: center;
   }
 
   .menu {
@@ -553,8 +553,34 @@ footer {
   }
 
   .cta-button {
-    padding: 8px 16px;
+    padding: 10px 20px;
     font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .start h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .start p,
+  .subheadline {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .start-media img {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+
+  .aprendizado h2,
+  .course h2,
+  .form-section h2,
+  .faq h2,
+  .video-title,
+  .footer-contact h2 {
+    font-size: 24px;
   }
 
   .aprendizado-blocos {
@@ -573,21 +599,39 @@ footer {
     font-size: 15px;
   }
 
-  ul.course-features {
+  .course-features {
     padding: 20px 15px;
   }
 
-  ul.course-features li {
+  .course-features li {
     font-size: 15px;
-    margin-bottom: 10px;
+    gap: 10px;
   }
 
-  .footer-contact h2 {
-    font-size: 24px;
+  .form-button {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+
+  .form-section p,
+  .form-content p {
+    font-size: 16px;
+  }
+
+  .faq-item {
+    padding: 20px;
+  }
+
+  .faq-item h4 {
+    font-size: 18px;
+  }
+
+  .faq-item p {
+    font-size: 15px;
   }
 
   .footer-contact p {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .footer-socials {
@@ -600,9 +644,29 @@ footer {
     font-size: 12px;
   }
 
+  .video-container {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 15px;
+  }
+
   .dep {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .potencial-container {
     flex-direction: column;
-    align-items: center;
+    gap: 30px;
+  }
+
+  .potencial-text {
+    text-align: center;
+  }
+
+  .valor img {
+    max-width: 200px;
   }
 }
 
