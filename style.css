@@ -571,7 +571,8 @@ footer {
 
   .start-media img {
     max-width: 100%;
-    margin-bottom: 0px;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 
   .potencial-image img {
