@@ -574,6 +574,10 @@ footer {
     margin: 0;
   }
 
+  .potencial-image img {
+    margin-top: 0;
+  }
+
   .aprendizado h2,
   .course h2,
   .form-section h2,
