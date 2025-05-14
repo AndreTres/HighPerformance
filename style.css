@@ -668,6 +668,7 @@ footer {
   }
 
   .course-features {
+    padding: 16px 12px;
     padding: 20px 15px;
   }
 
@@ -713,7 +714,9 @@ footer {
     font-size: 12px;
   }
 
-.video-section {
+.video-section,
+.form-section,
+.faq {
   padding: 16px 12px;
 }
 
