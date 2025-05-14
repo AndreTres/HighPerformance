@@ -713,6 +713,10 @@ footer {
     font-size: 12px;
   }
 
+  .video-section {
+  padding: 16px 12px;
+}
+
   .video-container {
     width: 100%;
     max-width: 100%;
