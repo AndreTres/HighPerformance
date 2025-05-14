@@ -260,8 +260,9 @@ section p {
 
 .form-section {
   text-align: center;
-  padding: 20px 20px;
-  margin-bottom: -100px;
+  padding: 40px 20px;
+  margin-top: -40px; 
+  margin-bottom: 00px;  
   background: transparent;
 }
 
@@ -327,7 +328,9 @@ section p {
 
 .video-title {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-weight: bold !important;
   font-size: 1.6rem;
   font-weight: 600;
 }
@@ -337,6 +340,7 @@ section p {
   max-width: 400px; 
   margin: 0 auto;
   margin-top: 20px;
+  margin-bottom: 40px;
   overflow: hidden;
   aspect-ratio: 1 / 1;
   border-radius: 12px;
