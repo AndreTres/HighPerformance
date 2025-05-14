@@ -334,9 +334,8 @@ section p {
 .video-wrapper {
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 0;
-  margin: 0 auto;
+  padding: 0 20px;
+  margin-bottom: 40px;
 }
 
 .video-title {
@@ -349,14 +348,13 @@ section p {
 
 .video-container {
   width: 100%;
-  max-width: 400px; 
-  margin: 20px auto 40px;
+  max-width: 400px;
   height: auto;
   display: block;
-  overflow: hidden;
   border-radius: 15px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  object-fit: contain;
 }
 
 .video-container video {
@@ -716,9 +714,12 @@ footer {
 
   .video-container {
     max-width: 100%;
-    border-radius: 0;
-    height: 200px;
+    height: auto;
     margin-top: 15px;
+  }
+
+  .video-wrapper {
+    padding: 0 10px;
   }
 
   .dep {
