@@ -478,7 +478,7 @@ footer {
 }
 
 .faq-item:last-child {
-  margin-bottom: -40px; 
+  margin-bottom: -60px; 
 }
 
 .footer-content {
@@ -705,6 +705,10 @@ footer {
   .faq-item p {
     font-size: 15px;
   }
+
+  .faq-item:last-child {
+  margin-bottom: 0px; 
+}
 
   .footer-contact p {
     font-size: 14px;
