@@ -354,7 +354,6 @@ section p {
   height: auto;
   display: block;
   overflow: hidden;
-  aspect-ratio: 1 / 1;
   border-radius: 15px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -364,8 +363,7 @@ section p {
   width: 100%;
   height: auto;
   border-radius: 12px;
-  object-fit: cover;
-  line-height: 0;
+  object-fit: contain;
 }
 
 .video-container:hover {
@@ -720,7 +718,6 @@ footer {
     max-width: 100%;
     border-radius: 0;
     height: 200px;
-    aspect-ratio: 1 / 1;
     margin-top: 15px;
   }
 
