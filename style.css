@@ -577,7 +577,7 @@ footer {
     text-align: center;
   }
 
-  .menu-toggle {
+ .menu-toggle {
   display: block;
   background: none;
   border: none;
@@ -585,7 +585,7 @@ footer {
   color: #1e90ff;
   cursor: pointer;
   position: absolute;
-  top: 40px;
+  top: 20px;      
   right: 20px;
   z-index: 1100;
 }
