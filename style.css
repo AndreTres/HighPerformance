@@ -337,13 +337,15 @@ section p {
 
 .video-container {
   width: 100%;
-  max-width: 400px; 
+  max-width: 800px; 
   margin: 0 auto;
+  height: auto;
+  display: block;
   margin-top: 20px;
   margin-bottom: 40px;
   overflow: hidden;
   aspect-ratio: 1 / 1;
-  border-radius: 12px;
+  border-radius: 15px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -707,8 +709,12 @@ footer {
 
   .video-container {
     max-width: 100%;
-    border-radius: 8px;
+    border-radius: 0;
     margin-top: 15px;
+  }
+
+  .video-wrapper {
+    padding: 0 10px;
   }
 
   .dep {
