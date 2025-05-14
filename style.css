@@ -400,7 +400,7 @@ section p {
 
 .course {
   margin-top: -40px;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
 }
 
 .course h2{
@@ -591,29 +591,31 @@ footer {
 }
 
   .menu {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-    display: none;
-    flex-direction: column;
-    background-color: #000;
-    width: 100%;
-    text-align: center;
-    padding: 20px 0;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    z-index: 1000;
-    border-top: 1px solid #1e90ff;
-  }
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  display: none;
+  flex-direction: column;
+  background-color: #000;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  position: absolute;
+  top: 100px; 
+  left: 0;
+  z-index: 1000;
+  border-top: 1px solid #1e90ff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 0 0 12px 12px;
+}
 
-  .menu.active {
+.menu.active {
   display: flex;
 }
 
-  .menu a {
-    font-size: 18px;
-  }
+.menu a {
+  font-size: 18px;
+}
 
   .cta-button {
     padding: 10px 20px;
