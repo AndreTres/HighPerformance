@@ -334,14 +334,14 @@ section p {
 .video-wrapper {
   display: flex;
   justify-content: center;
-  padding: 0 20px;
-  margin-bottom: 40px;
+  padding: 0 16px;
+  margin-bottom: 0 auto 40px;
 }
 
 .video-title {
   text-align: center;
   margin-top: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   font-weight: bold !important;
   font-size: 1.6rem;
 }
@@ -352,6 +352,7 @@ section p {
   height: auto;
   display: block;
   border-radius: 15px;
+  aspect-ratio: 9 / 16;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   object-fit: contain;
@@ -713,9 +714,14 @@ footer {
   }
 
   .video-container {
+    width: 100%;
     max-width: 100%;
     height: auto;
+    border-radius: 14px;
+    box-shadow: none;
     margin-top: 15px;
+    margin-bottom: 30px;
+    object-fit: cover;
   }
 
   .video-wrapper {
