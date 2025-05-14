@@ -12,18 +12,21 @@
 <body>
 
   <header>
-    <div class="container header-container">
-      <div class="logo">Projeto Kanté</div>
-      <nav class="menu">
-        <a href="#inicio">Início</a>
-        <a href="#treinamentos">Treinamentos</a>
-        <a href="#curso">Curso</a>
-        <a href="#faq">Dúvidas</a>
-        <a href="#contato">Contato</a>
-      </nav>
-      <a href="#form" class="cta-button">Quero Fazer Parte</a>
-    </div>
-  </header>
+  <div class="container header-container">
+    <div class="logo">Projeto Kanté</div>
+    <button class="menu-toggle" aria-label="Abrir menu">
+      <i class="fas fa-bars"></i>
+    </button>
+    <nav class="menu">
+      <a href="#inicio">Início</a>
+      <a href="#treinamentos">Treinamentos</a>
+      <a href="#curso">Curso</a>
+      <a href="#faq">Dúvidas</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a href="#form" class="cta-button" aria-label="Botão para formulário">Quero Fazer Parte</a>
+  </div>
+</header>
 
   <section id="inicio" class="start">
     <div class="container">
@@ -34,7 +37,7 @@
             Aqui você encontra treinos, alimentação e estratégias <br>para alcançar seu auge técnico e físico</p>
       </div>
       <div class="start-media">
-        <img src="perfil.jpg" alt="Foto de André Ferrari" />
+        <img src="perfil.jpg" alt="Foto do jogador André Ferrari" />
       </div>
     </div>
   </section>
@@ -109,7 +112,7 @@
     </div>
   </section>
 
-        <h2 class="video-title">Busque a Alta Performance!</h2>
+        <h2 class="video-title" aria-label="Vídeo motivacional">Busque a Alta Performance!</h2>
         <div class="video-container">
         <video controls autoplay muted loop aria-label>
           <source src="videos/Ap.mp4" type="video/mp4">
