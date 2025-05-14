@@ -669,6 +669,10 @@ footer {
     font-size: 15px;
   }
 
+  .course {
+  padding-bottom: 0px;
+}
+
   .course-features {
     padding: 16px 12px;
     padding: 20px 15px;
