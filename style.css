@@ -326,21 +326,33 @@ section p {
   text-align: center;
 }
 
+.video-section {
+  padding: 40px 20px;
+  margin: 0 auto;
+}
+
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0 auto;
+}
+
 .video-title {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 0px;
   font-weight: bold !important;
   font-size: 1.6rem;
-  font-weight: 600;
 }
 
 .video-container {
   width: 100%;
   max-width: 400px; 
-  margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 40px;
+  margin: 20px auto 40px;
+  height: auto;
+  display: block;
   overflow: hidden;
   aspect-ratio: 1 / 1;
   border-radius: 15px;
@@ -353,7 +365,6 @@ section p {
   height: auto;
   border-radius: 12px;
   object-fit: cover;
-  display: block;
   line-height: 0;
 }
 
@@ -668,6 +679,9 @@ footer {
     gap: 10px;
   }
 
+  .video-container {
+    height: 200px;
+  }
   .form-button {
     font-size: 16px;
     margin-bottom: 32px;
