@@ -337,10 +337,8 @@ section p {
 
 .video-container {
   width: 100%;
-  max-width: 800px; 
+  max-width: 400px; 
   margin: 0 auto;
-  height: auto;
-  display: block;
   margin-top: 20px;
   margin-bottom: 40px;
   overflow: hidden;
@@ -472,7 +470,7 @@ footer {
 }
 
 .faq-item:last-child {
-  margin-bottom: -80px; 
+  margin-bottom: -40px; 
 }
 
 .footer-content {
