@@ -584,7 +584,7 @@ footer {
   font-size: 28px;
   color: #1e90ff;
   cursor: pointer;
-  position: relative;
+  position: absolute;
   top: 40px;
   right: 20px;
   z-index: 1100;
