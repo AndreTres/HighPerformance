@@ -678,6 +678,10 @@ body.light-mode .menu {
     font-size: 16px;
   }
 
+  .faq {
+    padding-bottom: 20px;
+  }
+  
   .faq-item {
     padding: 20px;
   }
@@ -689,10 +693,6 @@ body.light-mode .menu {
   .faq-item p {
     font-size: 15px;
   }
-
-  .faq-item:last-child {
-  margin-bottom: 5px;
-}
 
   .footer-contact p {
     font-size: 14px;
