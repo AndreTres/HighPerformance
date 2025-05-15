@@ -370,34 +370,6 @@ section p {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
 }
 
-.deps {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: -70px;
-  padding-top: 0px;
-  justify-content: center;
-  gap: 30px;
-}
-
-.dep {
-  background-color: rgba(28, 28, 28, 0.9);
-  padding: 20px;
-  border-radius: 12px;
-  width: 300px;
-  border-left: 4px solid #1e90ff;
-}
-
-.dep p {
-  font-size: 16px;
-  color: #ddd;
-  margin-bottom: 10px;
-}
-
-.dep h2 {
-  padding: 0px 0;
-  padding-top: 0px;
-}
-
 .course {
   margin-top: -40px;
   padding-bottom: 0px;
