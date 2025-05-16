@@ -450,10 +450,6 @@ footer {
   color: #888;
 }
 
-.faq-item:last-child {
-  margin-bottom: -60px; 
-}
-
 .footer-content {
   padding: 30px 20px 10px;
   text-align: center;
@@ -698,6 +694,10 @@ body.light-mode .menu {
 
   .faq-item:last-child {
     margin-bottom: 0px !important; 
+  }
+
+  .faq {
+    padding-bottom: 10px;
   }
 
   .footer-contact p {
