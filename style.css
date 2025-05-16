@@ -695,6 +695,10 @@ body.light-mode .menu {
     font-size: 15px;
   }
 
+  .faq-item:last-child {
+    margin-bottom: 10px; 
+  }
+
   .footer-contact p {
     font-size: 14px;
   }
