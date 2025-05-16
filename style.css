@@ -697,7 +697,7 @@ body.light-mode .menu {
   }
 
   .faq-item:last-child {
-    margin-bottom: 20px; 
+    margin-bottom: 0px !important; 
   }
 
   .footer-contact p {
