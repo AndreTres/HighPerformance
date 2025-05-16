@@ -451,7 +451,7 @@ footer {
 }
 
 .faq-item:last-child {
-  margin-bottom: -60px; 
+  margin-bottom: 20px; 
 }
 
 .footer-content {
@@ -697,7 +697,7 @@ body.light-mode .menu {
   }
 
   .faq-item:last-child {
-    margin-bottom: 50px; 
+    margin-bottom: 0px; 
   }
 
   .footer-contact p {
