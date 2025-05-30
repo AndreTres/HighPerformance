@@ -628,6 +628,11 @@ footer {
   gap: 4px;
 }
 
+.frase-bonus strong::after {
+  content: "\A";         
+  white-space: pre;     
+}
+
   .emoji {
     font-size: 22px;
     margin-right: 5px;
