@@ -629,8 +629,10 @@ footer {
 }
 
 .frase-bonus strong::after {
-  content: "\A";         
-  white-space: pre;     
+  content: "";
+  display: block;
+  height: 0;
+  margin-bottom: 4px;    
 }
 
   .emoji {
