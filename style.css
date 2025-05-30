@@ -617,6 +617,17 @@ footer {
   font-size: 18px;
 }
 
+.frase-bonus {
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 0 15px;
+  }
+
+  .emoji {
+    font-size: 22px;
+    margin-right: 5px;
+  }
+
 body.light-mode .menu {
     background-color: #ffffff;
   }
