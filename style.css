@@ -53,6 +53,10 @@ body {
   100% { opacity: 1; transform: scale(1); }
 }
 
+.mobile-break {
+  display: inline;
+}
+
 a {
   color: #1e90ff; 
   font-weight: bold;
@@ -639,6 +643,11 @@ footer {
     font-size: 22px;
     margin-right: 5px;
   }
+
+  .mobile-break {
+  display: block;
+  margin-top: 4px;
+}
 
 body.light-mode .menu {
     background-color: #ffffff;
