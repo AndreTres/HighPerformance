@@ -108,7 +108,7 @@ header .container {
 .menu a {
   font-weight: 600;
   font-size: 20px;
-  color: #1e90ff;
+  color: #f1f1f1;
   text-decoration: none;
   padding: 8px 0; 
   transition: color 0.3s ease;
@@ -117,7 +117,7 @@ header .container {
 }
 
 .menu a:hover {
-  color: #58a7f1;
+  color: #1e90ff;
   border-radius: 4px;
 }
 
@@ -338,9 +338,15 @@ section p {
   gap: 40px;
 }
 
+h1 {
+  color:#1e90ff;
+  font-size: 32px;
+}
+
 .valor img {
   max-width: 260px;
   width: 100%;
+  margin-top: 30px;
   height: auto;
   border-radius: 12px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
