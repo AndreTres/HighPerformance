@@ -825,7 +825,7 @@ body.light-mode .menu {
     text-align: center;
   }
 
-  .valor img {
+  .valor1 img, .valor2 img   {
     max-width: 200px;
   }
 }
@@ -970,3 +970,4 @@ body.light-mode .footer-socials a {
 body.light-mode .footer-socials a:hover {
   color: #007acc;
 }
+
