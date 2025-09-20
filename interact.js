@@ -19,13 +19,16 @@ const menuToggle = document.querySelector('.menu-toggle');
 const menu = document.querySelector('.menu');
 
 menuToggle.addEventListener('click', () => {
+  const isExpanded = menu.classList.contains('active');
   menu.classList.toggle('active');
+  menuToggle.setAttribute('aria-expanded', !isExpanded);
 });
 
 // 3. Fechar o menu ao clicar em um link (mobile UX)
 document.querySelectorAll('.menu a').forEach(link => {
   link.addEventListener('click', () => {
     menu.classList.remove('active');
+    menuToggle.setAttribute('aria-expanded', 'false');
   });
 });
 
@@ -38,6 +41,7 @@ if (localStorage.getItem('theme') === 'light' || (!localStorage.getItem('theme')
   document.body.classList.add('light-mode');
   icon.classList.remove('fa-moon');
   icon.classList.add('fa-sun');
+  themeToggle.setAttribute('aria-pressed', 'true');
 }
 
 themeToggle.addEventListener('click', () => {
@@ -45,6 +49,7 @@ themeToggle.addEventListener('click', () => {
   const isLight = document.body.classList.contains('light-mode');
   icon.classList.toggle('fa-sun', isLight);
   icon.classList.toggle('fa-moon', !isLight);
+  themeToggle.setAttribute('aria-pressed', isLight);
   localStorage.setItem('theme', isLight ? 'light' : 'dark');
 });
 
