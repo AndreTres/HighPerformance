@@ -612,24 +612,44 @@ header {
 
 .oferta-impacto {
   text-align: center;
-  font-size: var(--font-size-lg);
-  color: var(--text-primary);
   padding: var(--spacing-lg);
   background: linear-gradient(135deg, var(--bg-tertiary), var(--bg-card));
   border-radius: var(--radius-lg);
   border: 2px solid var(--accent-primary);
   box-shadow: 0 4px 12px var(--shadow-medium);
-  line-height: 1.8;
 }
 
-.oferta-impacto strong {
-  color: var(--accent-primary);
+.oferta-impacto-linha1 {
+  font-size: var(--font-size-2xl);
+  color: #FFFFFF;
+  margin-bottom: var(--spacing-md);
+  line-height: 1.4;
+}
+
+.oferta-impacto-linha1 strong {
   font-weight: 700;
 }
 
-.oferta-impacto em {
+.destaque-palavra {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  text-decoration-color: var(--accent-primary);
+}
+
+.oferta-impacto-linha2 {
+  font-size: var(--font-size-lg);
+  color: #FFFFFF;
+  line-height: 1.8;
+  margin-bottom: 0;
+}
+
+.fast-food-destaque {
   font-style: italic;
-  color: var(--accent-secondary);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  color: #FFFFFF;
 }
 
 /* ========================================
