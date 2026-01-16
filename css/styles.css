@@ -545,35 +545,18 @@ header {
 
 .bloco {
   background: var(--bg-card);
-  padding: var(--spacing-lg);
+  padding: var(--spacing-md);
   border-radius: var(--radius-lg);
-  border: 1px solid var(--border-color);
-  box-shadow: var(--shadow-sm);
+  border-left: 4px solid var(--accent-primary);
+  box-shadow: var(--shadow-md);
   transition: all var(--transition-base);
   position: relative;
   overflow: hidden;
 }
 
-.bloco::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 4px;
-  height: 100%;
-  background: var(--accent-gradient);
-  transform: scaleY(0);
-  transition: transform var(--transition-base);
-}
-
 .bloco:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-lg);
-  border-color: var(--accent-primary);
-}
-
-.bloco:hover::before {
-  transform: scaleY(1);
 }
 
 .bloco h3 {
@@ -691,36 +674,19 @@ header {
   align-items: center;
   text-align: center;
   gap: var(--spacing-md);
-  padding: var(--spacing-xl) var(--spacing-lg);
+  padding: var(--spacing-md);
   background: var(--bg-card);
-  border-radius: var(--radius-xl);
-  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  border-left: 4px solid var(--accent-primary);
+  box-shadow: var(--shadow-md);
   transition: all var(--transition-base);
   position: relative;
   overflow: hidden;
 }
 
-.course-features li::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: var(--accent-gradient);
-  transform: scaleX(0);
-  transition: transform var(--transition-base);
-}
-
 .course-features li:hover {
-  transform: translateY(-6px);
-  border-color: var(--accent-primary);
+  transform: translateY(-4px);
   box-shadow: var(--shadow-lg);
-  background: var(--bg-card-hover);
-}
-
-.course-features li:hover::before {
-  transform: scaleX(1);
 }
 
 .course-features li i {
@@ -802,9 +768,9 @@ header {
 
 .valor {
   background: var(--bg-card);
-  padding: var(--spacing-lg);
-  border-radius: var(--radius-xl);
-  border: 1px solid var(--border-color);
+  padding: var(--spacing-md);
+  border-radius: var(--radius-lg);
+  border-left: 4px solid var(--accent-primary);
   box-shadow: var(--shadow-md);
   text-align: center;
   transition: all var(--transition-base);
@@ -812,26 +778,9 @@ header {
   overflow: hidden;
 }
 
-.valor::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: var(--accent-gradient);
-  transform: scaleX(0);
-  transition: transform var(--transition-base);
-}
-
 .valor:hover {
-  transform: translateY(-8px);
-  box-shadow: var(--shadow-xl);
-  border-color: var(--accent-primary);
-}
-
-.valor:hover::before {
-  transform: scaleX(1);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
 }
 
 .valor h1 {
@@ -933,9 +882,9 @@ header {
   font-weight: var(--font-weight-medium);
   color: var(--text-primary);
   margin-bottom: var(--spacing-xl);
-  padding: var(--spacing-lg) var(--spacing-md);
+  padding: var(--spacing-md);
   background: var(--bg-card);
-  border: 2px solid var(--accent-primary);
+  border-left: 4px solid var(--accent-primary);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-md);
   position: relative;
@@ -947,21 +896,9 @@ header {
   display: block;
 }
 
-.oferta-transicao::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 4px;
-  height: 100%;
-  background: var(--accent-gradient);
-  border-radius: var(--radius-sm) 0 0 var(--radius-sm);
-}
-
 .oferta-transicao:hover {
-  transform: translateY(-2px);
+  transform: translateY(-4px);
   box-shadow: var(--shadow-lg);
-  border-color: var(--accent-primary-hover);
 }
 
 @media (min-width: 768px) {
@@ -1015,12 +952,18 @@ header {
 
 .oferta-impacto {
   background: var(--bg-card);
-  padding: var(--spacing-xl);
-  border-radius: var(--radius-xl);
-  border: 1px solid var(--border-color);
+  padding: var(--spacing-md);
+  border-radius: var(--radius-lg);
+  border-left: 4px solid var(--accent-primary);
   box-shadow: var(--shadow-md);
   text-align: center;
   margin-top: var(--spacing-xl);
+  transition: all var(--transition-base);
+}
+
+.oferta-impacto:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
 }
 
 .oferta-impacto-linha1 {
@@ -1140,18 +1083,17 @@ header {
 
 .faq-item {
   background: var(--bg-card);
-  padding: var(--spacing-lg);
+  padding: var(--spacing-md);
   border-radius: var(--radius-lg);
-  border: 1px solid var(--border-color);
-  box-shadow: var(--shadow-sm);
+  border-left: 4px solid var(--accent-primary);
+  box-shadow: var(--shadow-md);
   margin-bottom: var(--spacing-md);
   transition: all var(--transition-base);
 }
 
 .faq-item:hover {
-  border-color: var(--accent-primary);
-  box-shadow: var(--shadow-md);
-  transform: translateX(4px);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
 }
 
 .faq-item h4 {

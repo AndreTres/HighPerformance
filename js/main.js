@@ -533,17 +533,8 @@
     }
 
     setupHoverEffects() {
-      // Efeito de elevação nos cards
-      const cards = document.querySelectorAll('.bloco, .valor, .faq-item');
-      cards.forEach(card => {
-        card.addEventListener('mouseenter', () => {
-          card.style.transform = 'translateY(-4px)';
-        });
-        
-        card.addEventListener('mouseleave', () => {
-          card.style.transform = 'translateY(0)';
-        });
-      });
+      // Efeito de hover agora é gerenciado via CSS para consistência
+      // Mantido vazio para compatibilidade futura se necessário
     }
   }
 
