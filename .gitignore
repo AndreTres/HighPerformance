@@ -5,6 +5,8 @@
 
 # Dependências
 node_modules/
+package-lock.json
+yarn.lock
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -14,6 +16,8 @@ dist/
 build/
 .next/
 out/
+*.min.js
+*.min.css
 
 # Logs
 *.log
@@ -21,18 +25,35 @@ logs/
 
 # Sistema operacional
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
 Thumbs.db
+ehthumbs.db
 desktop.ini
+Desktop.ini
 
-# IDEs
+# IDEs e editores
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
+.project
+.classpath
+.settings/
 
 # Arquivos temporários
 *.tmp
 *.temp
 .cache/
 
+# Arquivos de backup
+*.bak
+*.backup
+
+# Arquivos grandes de mídia (opcional - descomente se necessário)
+# *.mp4
+# *.mov
+# *.avi
