@@ -1,0 +1,61 @@
+# Dependências
+node_modules/
+package-lock.json
+yarn.lock
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos temporários
+*.tmp
+*.temp
+.cache/
+
+# Arquivos de build (se houver)
+dist/
+build/
+*.min.js
+*.min.css
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.*.local
+
+# Arquivos de backup
+*.bak
+*.backup
+*~
+
+# Arquivos de sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# Arquivos grandes de mídia (opcional - descomente se necessário)
+# *.mp4
+# *.mov
+# *.avi
+
