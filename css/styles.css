@@ -477,6 +477,12 @@ header {
   max-width: 100%;
   height: auto;
   object-fit: cover;
+  transition: all var(--transition-base);
+}
+
+.start-media img:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
 }
 
 @media (min-width: 768px) {
@@ -601,6 +607,12 @@ header {
   width: 100%;
   height: auto;
   object-fit: cover;
+  transition: all var(--transition-base);
+}
+
+.potencial-image img:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
 }
 
 .potencial-text {
@@ -795,6 +807,12 @@ header {
   height: auto;
   margin: 0 auto var(--spacing-md);
   border-radius: var(--radius-md);
+  transition: all var(--transition-base);
+}
+
+.valor img:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
 }
 
 .valor-info {
@@ -948,6 +966,12 @@ header {
   box-shadow: var(--shadow-md);
   max-width: 100%;
   height: auto;
+  transition: all var(--transition-base);
+}
+
+.oferta-imagem img:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
 }
 
 .oferta-impacto {
@@ -1012,7 +1036,7 @@ header {
 }
 
 .video-section .container {
-  max-width: 600px;
+  max-width: 450px;
 }
 
 .video-title {
@@ -1051,7 +1075,7 @@ header {
   }
   
   .video-wrapper {
-    max-width: 500px;
+    max-width: 375px;
     padding: 0;
   }
   
@@ -1062,7 +1086,7 @@ header {
 
 @media (min-width: 1024px) {
   .video-wrapper {
-    max-width: 550px;
+    max-width: 412px;
   }
 }
 
@@ -1091,10 +1115,7 @@ header {
   transition: all var(--transition-base);
 }
 
-.faq-item:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-lg);
-}
+/* Hover removido dos cards FAQ conforme solicitado */
 
 .faq-item h4 {
   font-size: var(--font-size-lg);
@@ -1325,17 +1346,26 @@ footer {
   
   .header-container {
     position: relative;
+    flex-wrap: wrap;
   }
   
-  .cta-button {
-    order: -1;
-    width: 100%;
-    justify-content: center;
-    margin-top: var(--spacing-sm);
+  .logo {
+    order: 1;
+  }
+  
+  .menu-toggle {
+    order: 2;
   }
   
   .theme-toggle {
-    order: 1;
+    order: 3;
+  }
+  
+  .cta-button {
+    order: 4;
+    width: 100%;
+    justify-content: center;
+    margin-top: var(--spacing-sm);
   }
 }
 
